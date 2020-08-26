@@ -1,2 +1,0 @@
-# TarjetasApp
-hjmçuj
