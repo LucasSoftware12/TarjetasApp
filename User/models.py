@@ -9,6 +9,7 @@ class usuario(models.Model):
     nombre = models.CharField(max_length=50)
     email = models.EmailField(max_length=60)
     password = models.CharField(max_length=20)
+    #agregamos un passwor mas¿?¿?¿?¿?¿?¿?¿?¿?¿?¿?¿?¿?¿?¿?¿?¿?¿?¿?¿?¿?
 
     def __str__(self):
         return self.nombre

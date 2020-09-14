@@ -26,7 +26,11 @@
                 <input type="password" class="input-field" placeholder="Contraseña" required>
                 <button type="submit" class="submit-btn">Ingresar a mi cuenta</button>
             </form>
-            <form id="register" class="input-group">
+            <form method="POST" id="register" class="input-group">
+                {% csrf_token %}
+                {{User_form.as_p}}
+                <! -- agrege esto 'method="POST" ' en el form y lo otro eso nomas toque  csrf_token 
+                User_form.as_p el .as_p es para que salga uno de bajo del otro nada mas -->
                 <input type="text" class="input-field" placeholder="Nombre" required>
                 <input type="email" class="input-field" placeholder="usuario@correo.com" required>
                 <input type="password" class="input-field" placeholder="Contraseña" required>
