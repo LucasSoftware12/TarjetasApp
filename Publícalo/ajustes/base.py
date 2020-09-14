@@ -22,8 +22,7 @@ STATIC_DIR = 'static'#no funciona si le pongo con el path NI IDEA PORQUE
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/3.1/howto/deployment/checklist/
 
-# SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'u=9l9_i#+%y8fbi7(m=ge1#pv0#%oxy)jlsf0#fd&hp(c#+t06'
+# SECURITY WARNING: keep the 
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
