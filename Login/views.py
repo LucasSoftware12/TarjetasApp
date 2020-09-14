@@ -12,7 +12,7 @@ def Home(request):
         User_form = usuarioForm(request.POST)
         if User_form.is_valid():
             User_form.save()
-            return redirect('login/index.html')#no me redirecciona es para arreglar T_T
+            return redirect('Home')#no me redirecciona es para arreglar T_T
     else:
         User_form = usuarioForm()
     return render(request,'login/index.html',{'User_form':User_form})
